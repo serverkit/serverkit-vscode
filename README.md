@@ -1,4 +1,4 @@
-[![Test](https://github.com/toshimaru/serverkit-vscode/actions/workflows/test.yml/badge.svg)](https://github.com/toshimaru/serverkit-vscode/actions/workflows/test.yml)
+[![Test](https://github.com/serverkit/serverkit-vscode/actions/workflows/test.yml/badge.svg)](https://github.com/serverkit/serverkit-vscode/actions/workflows/test.yml)
 [![Gem Version](https://badge.fury.io/rb/serverkit-vscode.svg)](https://badge.fury.io/rb/serverkit-vscode)
 
 # serverkit-vscode
