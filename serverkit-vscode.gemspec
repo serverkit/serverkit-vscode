@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
-lib = File.expand_path("../lib", __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "serverkit/vscode/version"
+require_relative "lib/serverkit/vscode/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "serverkit-vscode"
@@ -12,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Serverkit plug-in for VSCode.}
   spec.description   = %q{Serverkit plug-in for VSCode.}
-  spec.homepage      = "https://github.com/toshimaru/serverkit-vscode"
+  spec.homepage      = "https://github.com/serverkit/serverkit-vscode"
   spec.license       = "MIT"
 
   # Specify which files should be added to the gem when it is released.
