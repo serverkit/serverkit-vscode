@@ -5,11 +5,36 @@
 
 [Serverkit](https://github.com/serverkit/serverkit) plug-in for [VSCode](https://code.visualstudio.com/).
 
-## Install
+## Installation
 
 ```rb
 # Gemfile
 gem "serverkit-vscode"
+```
+
+## Usage
+
+### Prerequisites
+
+- Ensure you have [serverkit](https://github.com/serverkit/serverkit) gem installed
+- Ensure you have [VSCode CLI](https://code.visualstudio.com/docs/configure/command-line) installed on your system
+
+### Basic Example
+
+Create a recipe file that uses the vscode resources:
+
+```yaml
+# recipe.yml
+resources:
+  # Install GitHub Copilot extension
+  - type: vscode_package
+    name: github.copilot
+```
+
+Then apply your recipe with Serverkit:
+
+```console
+$ serverkit apply recipe.yml
 ```
 
 ## Resource
